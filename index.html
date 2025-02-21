@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN | JYP SHOP</title>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 외부 스타일시트 -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- 웹 폰트 연결 -->
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <!-- JS 파일 -->
+    <script src="./script/index.js" defer></script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <div class="header_wrap">
+        <header>
+            <h1><a href="#"><img src="./images/jyp_logo.png" alt=""></a></h1>
+            <a href="#" class="my_artist">
+                <p>MY ARTIST</p>
+                <p><img src="./images/arrow_btm.png" alt=""></p>
+                <!--MY ARTIST 클릭 시 활성화되는 영역  -->
+                <div class="artist_sub"></div>
+            </a>
+            <nav>
+                <a href="#" class="login"><img src="./images/icon_login.png" alt=""></a>
+                <a href="#" class="cart"><img src="./images/icon_cart.png" alt=""></a>
+                <a href="#" class="language"><img src="./images/icon_global.png" alt=""></a>
+            </nav>
+        </header>
+    </div>
+    <!-- 메인 시작 -->
+    <main>
+        <div class="main_bnr">
+            <div class="swiper bnr_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"><p><img src="./images/main_bnr_01.jpg" alt=""></p></div>
+                    <div class="swiper-slide slide2"><p><img src="./images/main_bnr_02.jpg" alt=""></p></div>
+                    <div class="swiper-slide slide3"><p><img src="./images/main_bnr_03.jpg" alt=""></p></div>
+                </div>
+                <div class="swiper_info">
+                    <!-- 스와이퍼 페이지네이션 - 현재 페이지 -->
+                    <span class="page_now">1</span>
+                    <!-- 진행 스크롤 -->
+                    <div class="event-scrollbar">
+                        <div class="active-scrollbar"></div>
+                    </div>
+                    <!-- 스와이퍼 페이지네이션 - 전체 페이지 -->
+                    <span class="page_all">3</span>
+                    <!-- swiper 버튼 -->
+                    <div class="swiper-button-prev"><!--내용작성불가--></div>
+                    <div class="swiper-button-next"><!--내용작성불가--></div>
+                </div>
+            </div>
+            <div class="bnr_text_wrap">
+                <p>The 2nd Fanmeeting</p>
+                <p class="divider"><!-- 영역 분리용 --></p>
+                <h1>To WonderWorld</h1>
+                <p>2023.02.12 SUN 5PM (KST)</p>
+            </div>
+        </div>
+        <!-- ==================================================================WHAT'S NEW -->
+        <div class="new_wrap">
+            <div class="new_left"><a href="#"><img src="./images/new_big.jpg" alt=""></a></div>
+            <div class="new_right">
+                <h1>WHAT'S <span>NEW?</span></h1>
+                <p><!-- 경계선 --></p>
+                <div class="artist_tap">
+                    <a href="#" class="active">Straykids</a>
+                    <a href="#">TWICE</a>
+                    <a href="#">DAY6</a>
+                    <a href="#">ITZY</a>
+                    <a href="#">NMIXX</a>
+                    <a href="#">Xdinary Heroes</a>
+                    <a href="#">NiziU</a>
+                    <a href="#">NEX2</a>
+                    <a href="#">KickFlip</a>
+                    <a href="#">2PM</a>
+                    <a href="#">SOLO Artists</a>
+                </div>
+                <p class="new_detail">
+                    STRAY KIDS의 새로운 미니앨범, 合(HOP)<br>타이틀곡 'Walkin On Water', 자체 프로듀싱 팀 쓰리라차 작업!<br>월드투어 솔로 스테이지 곡 보너스 트랙 수록
+                </p>
+                <a href="#" class="artist_logo_new"><img src="./images/straykids_logo.png" alt=""></a>
+                <div class="new_album_wrap">
+                    <a href="#"><img src="./images/new_01.jpg" alt=""></a>
+                    <a href="#"><img src="./images/new_02.jpg" alt=""></a>
+                    <a href="#"><img src="./images/new_03.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- ==================================================================중간 배너1 -->
+        <div class="bnr_wrap bnr1">
+            <p class="bnr_title">TWICE 9TH MINI ALBUM<br>'MORE & MORE'</p>
+            <p class="bnr_sub">TWICE(트와이스) "MORE & MORE" CONCEPT PHOTO MINA</p>
+        </div>
+        <!-- ================================================================이번주 핫한 아이템 -->
+        <div class="hot_wrap">
+            <h1><span>Weekly</span>HOT ITEMS</h1>
+            <div class="items_wrap">
+                <div class="items_tap">
+                    <a href="#">ALL</a>
+                    <a href="#">앨범/DVD</a>
+                    <a href="#">문구류</a>
+                    <a href="#">액세서리</a>
+                    <a href="#">세트상품</a>
+                    <a href="#">포토</a>
+                    <a href="#">의류</a>
+                </div>
+                <a href="#" class="view_all">
+                    <span>VIEW ALL</span>
+                    <img src="./images/icon_plus.png" alt="">
+                </a>
+            </div>
+            <div class="hot_contents_wrap">
+                <div class="hot h_content_01">
+                    <a href="#"><img src="./images/hot_01.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_02">
+                    <a href="#"><img src="./images/hot_02.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_03">
+                    <a href="#"><img src="./images/hot_03.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_04">
+                    <a href="#"><img src="./images/hot_04.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_05">
+                    <a href="#"><img src="./images/hot_05.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_06">
+                    <a href="#"><img src="./images/hot_06.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_07">
+                    <a href="#"><img src="./images/hot_07.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_08">
+                    <a href="#"><img src="./images/hot_08.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_09">
+                    <a href="#"><img src="./images/hot_09.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+                <div class="hot h_content_10">
+                    <a href="#"><img src="./images/hot_10.jpg" alt=""></a>
+                    <p class="artist">Stray Kids</p>
+                    <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                    <div class="price_wrap">
+                        <span class="discount">19%</span>
+                        <span class="price">₩17,800</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 반응형 제작 시 보이는 SLIDE 영역 -->
+            <div class="swiper hot_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hot h_content_01">
+                            <a href="#"><img src="./images/hot_01.jpg" alt=""></a>
+                            <p class="artist">Stray Kids</p>
+                            <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                            <div class="price_wrap">
+                                <span class="discount">19%</span>
+                                <span class="price">₩17,800</span>
+                            </div>
+                        </div>
+                        <div class="hot h_content_02">
+                            <a href="#"><img src="./images/hot_02.jpg" alt=""></a>
+                            <p class="artist">Stray Kids</p>
+                            <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                            <div class="price_wrap">
+                                <span class="discount">19%</span>
+                                <span class="price">₩17,800</span>
+                            </div>
+                        </div>
+                        <div class="hot h_content_03">
+                            <a href="#"><img src="./images/hot_03.jpg" alt=""></a>
+                            <p class="artist">Stray Kids</p>
+                            <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                            <div class="price_wrap">
+                                <span class="discount">19%</span>
+                                <span class="price">₩17,800</span>
+                            </div>
+                        </div>
+                        <div class="hot h_content_04">
+                            <a href="#"><img src="./images/hot_04.jpg" alt=""></a>
+                            <p class="artist">Stray Kids</p>
+                            <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                            <div class="price_wrap">
+                                <span class="discount">19%</span>
+                                <span class="price">₩17,800</span>
+                            </div>
+                        </div>
+                        <div class="hot h_content_05">
+                            <a href="#"><img src="./images/hot_05.jpg" alt=""></a>
+                            <p class="artist">Stray Kids</p>
+                            <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                            <div class="price_wrap">
+                                <span class="discount">19%</span>
+                                <span class="price">₩17,800</span>
+                            </div>
+                        </div>
+                        <div class="hot h_content_06">
+                            <a href="#"><img src="./images/hot_06.jpg" alt=""></a>
+                            <p class="artist">Stray Kids</p>
+                            <p class="content_title">Stray Kids SKZHOP HIPTAPE '合(HOP)' [SKZHOP VER.]</p>
+                            <div class="price_wrap">
+                                <span class="discount">19%</span>
+                                <span class="price">₩17,800</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================================================================아티스트 뉴스 -->
+        <div class="news_wrap">
+            <h1>ARTIST'S NEWS</h1>
+            <a href="#" class="view_all">
+                <span>VIEW ALL</span>
+                <img src="./images/icon_plus.png" alt="">
+            </a>
+            <div class="news_contents_wrap">
+                <div class="news_content n_content_01">
+                    <p class="artist_logo_news"><img src="./images/logo_straykids_news.png" alt=""></p>
+                    <p class="artist_name">Straykis</p>
+                    <p class="artist_news_detail">
+                        STRAY KIDS의 새로운 미니앨범, 合(HOP)<br>타이틀곡 'Walkin On Water', 자체 프로듀싱 팀 쓰리라차 작업!<br>월드투어 솔로 스테이지 곡 보너스 트랙 수록
+                    </p>
+                    <div class="news_img">
+                        <a href="#" class="album_img"><img src="./images/news_01.jpg" alt=""></a>
+                        <p><img src="./images/album.png" alt=""></p>
+                    </div>
+                </div>
+                <div class="news_content n_content_02">
+                    <p class="artist_logo_news"><img src="./images/logo_straykids_news.png" alt=""></p>
+                    <p class="artist_name">Straykis</p>
+                    <p class="artist_news_detail">
+                        STRAY KIDS의 새로운 미니앨범, 合(HOP)<br>타이틀곡 'Walkin On Water', 자체 프로듀싱 팀 쓰리라차 작업!<br>월드투어 솔로 스테이지 곡 보너스 트랙 수록
+                    </p>
+                    <div class="news_img">
+                        <a href="#" class="album_img"><img src="./images/news_02.jpg" alt=""></a>
+                        <p><img src="./images/album.png" alt=""></p>
+                    </div>
+                </div>
+                <div class="news_content n_content_03">
+                    <p class="artist_logo_news"><img src="./images/logo_twice_news.png" alt=""></p>
+                    <p class="artist_name">TWICE</p>
+                    <p class="artist_news_detail">
+                        STRAY KIDS의 새로운 미니앨범, 合(HOP)<br>타이틀곡 'Walkin On Water', 자체 프로듀싱 팀 쓰리라차 작업!<br>월드투어 솔로 스테이지 곡 보너스 트랙 수록
+                    </p>
+                    <div class="news_img">
+                        <a href="#" class="album_img"><img src="./images/news_03.jpg" alt=""></a>
+                        <p><img src="./images/album.png" alt=""></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================================================================아티스트 응원봉 -->
+        <div class="sticks_wrap">
+            <h1>JYP ARTIST'S<br><span>LIGHT STICKS</span></h1>
+            <p><!-- 경계선 --></p>
+            <div class="stick_detail_wrap">
+                <p>JYP 아티스트들의 응원봉을 한 눈에 살펴보세요!</p>
+                <a href="#" class="view_all">
+                    <span>VIEW ALL</span>
+                    <img src="./images/icon_plus.png" alt="">
+                </a>
+            </div>
+            <div class="stick_content_wrap">
+                <a href="#"><img src="./images/sticks_01.jpg" alt=""></a>
+                <a href="#"><img src="./images/sticks_02.jpg" alt=""></a>
+                <a href="#"><img src="./images/stick_big_03.jpg" alt=""></a>
+                <a href="#"><img src="./images/sticks_04.jpg" alt=""></a>
+                <a href="#"><img src="./images/sticks_05.jpg" alt=""></a>
+            </div>
+        </div>
+        <!-- ==================================================================중간 배너2 -->
+        <div class="bnr_wrap bnr2">
+            <p class="bnr_title">DAY6 성진,<br>첫 솔로 정규 앨범 '30' 발매</p>
+            <p class="bnr_sub">데뷔 첫 솔로 정규 1집 발표! 쌓아온 음악 서사 함축!<br>
+                타이틀곡 'Check Pattern', 이어지고 다시 만나는 음악의 선</p>
+        </div>
+    </main>
+    <footer>
+        <div class="f_top">
+            <p>JYP SHOP</p>
+            <div class="sns">
+                <a href="#"><img src="./images/insta.png" alt=""></a>
+                <a href="#"><img src="./images/facebook.png" alt=""></a>
+                <a href="#"><img src="./images/twitter.png" alt=""></a>
+                <a href="#"><img src="./images/youtube.png" alt=""></a>
+            </div>
+        </div>
+        <address>
+            <p>회사명 : 블루개러지(Blue Garage Corporation)  |  대표자명 : 피현식, 정민종</p>
+            <p>주소 : (05402) 서울특별시 강동구 성안로 7-13 2층(성내동, 광채빌딩)</p>
+            <p>대표번호 : 1577-9486</p>
+            <p>사업자등록번호 : 327-87-02151 [사업자정보확인]</p>
+            <p>통신판매업 신고번호 : 제 2021-서울강동-2601호 | 개인정보보호책임자 : 정민종 (privacy_help@jype.com)</p>
+            <p>호스팅 제공 : 카페24(주)</p>
+        </address>
+        <div class="f_btm">
+            <div class="btm_left">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">FAQ</a>
+                <a href="#">문의하기</a>
+            </div>
+            <div class="btm_right">
+                <p>JYP SHOP은 JYP 엔터테인먼트의 공식 온라인몰이며, 모든 컨텐츠는 저작권의 보호를 받고 있습니다.</p>
+                <p>Blue Garage Corporation. All rights reserved | Copyright by JYP Entertainment & Blue Garage.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
