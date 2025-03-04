@@ -1,16 +1,19 @@
 /* swiper- bnr slide */
-const bnrTotal = document.querySelector('.page_all')
+const bnrSlide = document.querySelectorAll('.bnr_slide > p')
+const bnrTotal = document.querySelector('.all_page')
 const bnrCurrent = document.querySelector('.page_now')
-const slideNum = document.querySelectorAll('.bnr_slide .swiper-slide')
-const activeScrollbar = document.querySelector('.active-scrollbar')
-console.log(slideNum)
+const activeScrollbar = document.querySelector('.active_scrollbar')
+console.log(bnrSlide)
 
-bnrTotal.textContent = slideNum.length;
+bnrTotal.textContent = `0${bnrSlide.length}`;
 
-const bnrSwiper = new Swiper('.bnr_slide',{
-    /* autoplay: {
-        delay: 0,
-    }, */
+setInterval(() => {
+	if(bnrSlide.length < 2){
+        bnrSlide.display.transform = 'translateX = -'
+    }
+},1000);
+
+/* const bnrSwiper = new Swiper('.bnr_slide',{
     speed: 4000,
     loop: true,
     on: {
@@ -31,12 +34,6 @@ const bnrSwiper = new Swiper('.bnr_slide',{
         prevEl: '.bnr_slide .swiper-button-prev',
         nextEl: '.bnr_slide .swiper-button-next',
     },
-});
-
-/* swiper - new_slide */
-const newSwiper = new Swiper('.new_slide_wrapper .new_slide',{
-    slidesPerView: 3,
-    spaceBetween: 16,
-})
+}); */
 
 

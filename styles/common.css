@@ -24,3 +24,33 @@
 .header_wrap header nav a {display: inline-block;}
 .header_wrap header nav a:nth-child(2) {margin: 0 16px;}
 .header_wrap header nav a img {}
+
+/* ===============================footer */
+footer {
+    background-color: #F5F5F5; padding: 64px 90px;
+}
+footer .f_top {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 50px;
+}
+footer .f_top > p {
+    color: #959595; font-size: 1.38rem; font-weight: 800;
+    letter-spacing: -0.02em;
+}
+footer .f_top .sns {}
+footer .f_top .sns > a {
+    background-color: #E8E8E8; border-radius: 50%; overflow: hidden;
+    display: inline-block; margin-left: 12px;
+    width: 40px; height: 40px;
+}
+footer .f_top .sns > a img {width: 100%;}
+footer address {margin-bottom: 42px;}
+footer address > p {font-size: 0.75rem; margin-bottom: 5px; color: #959595;}
+footer .f_btm {
+    display: flex; justify-content: space-between;
+    align-items: flex-end;
+}
+footer .f_btm .btm_left {}
+footer .f_btm .btm_left > a {font-size: 0.75rem; margin-right: 28px;}
+footer .f_btm .btm_right {text-align: right;}
+footer .f_btm .btm_right > p {font-size: 0.75rem; margin-top: 6px; color: #959595;}
